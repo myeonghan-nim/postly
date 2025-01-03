@@ -14,3 +14,9 @@
     - models.py: 데이터 구조를 정의하며 FastAPI의 Pydantic 모델을 사용
     - routes.py: 서비스의 API 엔드포인트를 정의
     - crud.py: 데이터 처리 로직을 캡슐화하여 유지보수성과 재사용성 향상에 기여, DB를 사용하는 경우 SQLAlchemy 등을 사용
+
+### 2일차
+
+- Pydantic을 사용해 데이터 유효성 검사와 파싱을 정교하게 하는 작업 진행
+  - GET API의 query, URI 경로 파라미터를 정교하게 제어
+  - POST/PUT API의 body 요청을 검사하고 제어
